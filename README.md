@@ -18,6 +18,7 @@ source venv/bin/activate
 # Activar el entorno (Windows)
 venv\Scripts\activate
 
+#Instalar los requerimientos para el programa
 pip install -r requirements.txt
 
 # Ejecutar el script de llenado de datos
