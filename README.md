@@ -21,8 +21,5 @@ venv\Scripts\activate
 # Instalar los requerimientos para el programa
 pip install -r requirements.txt
 
-# Ejecutar el script de llenado de datos
-python3 seed.py
-
 #Correr  el programa
 python3 run.py
