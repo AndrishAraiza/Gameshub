@@ -1,0 +1,35 @@
+# --- Python ---
+# Ignora las carpetas de caché donde se guardan los archivos .pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entorno Virtual ---
+# Ignora la carpeta venv para no subir miles de archivos del sistema
+venv/
+env/
+ENV/
+dist/
+build/
+
+# --- Base de Datos Local ---
+# OPCIONAL: Si quieres que cada usuario tenga su propia base de datos vacía,
+# descomenta la siguiente línea. Pero como tú quieres COMPARTIR tus juegos,
+# deja esta línea comentada (con el #) por ahora.
+# instance/gamehub.db
+
+# --- Archivos del Sistema ---
+# Ignora archivos invisibles de Mac y Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDEs (Editores de código) ---
+# Ignora configuraciones personales de VS Code o PyCharm
+.vscode/
+.idea/
+*.swp
+
+# --- Logs y archivos temporales ---
+*.log
+.tmp/
